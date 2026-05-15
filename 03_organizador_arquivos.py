@@ -20,6 +20,9 @@ def organizar_arquivos(json_path, pasta_base_bruta, pasta_destino_base):
         instancia = processo_info.get("instancia", "")
         documentos = processo_info.get("documentos", [])
         
+        movidos_neste_processo = 0
+        faltantes_neste_processo = []
+        
         for doc in documentos:
             codigo = doc.get("codigo", "")
             categoria = doc.get("categoria", "")
@@ -31,23 +34,32 @@ def organizar_arquivos(json_path, pasta_base_bruta, pasta_destino_base):
             nome_arquivo = f"{codigo}.pdf"
             caminho_origem = os.path.join(pasta_base_bruta, nome_arquivo)
             
+            # Criar a estrutura de pastas no destino
+            # ORGANIZADOR_PASTAS / DESTINO / Nº PROCESSO / INSTÂNCIA / CATEGORIA
+            caminho_destino_pasta = os.path.join(pasta_destino_base, n_processo, instancia, categoria)
+            caminho_destino_arquivo = os.path.join(caminho_destino_pasta, nome_arquivo)
+
             if os.path.exists(caminho_origem):
-                # Criar a estrutura de pastas no destino
-                # ORGANIZADOR_PASTAS / DESTINO / Nº PROCESSO / INSTÂNCIA / CATEGORIA
-                caminho_destino_pasta = os.path.join(pasta_destino_base, n_processo, instancia, categoria)
                 os.makedirs(caminho_destino_pasta, exist_ok=True)
-                
-                caminho_destino_arquivo = os.path.join(caminho_destino_pasta, nome_arquivo)
                 
                 # Mover o arquivo
                 try:
                     shutil.move(caminho_origem, caminho_destino_arquivo)
                     arquivos_movidos += 1
+                    movidos_neste_processo += 1
                     print(f"Movido: {nome_arquivo} -> {caminho_destino_pasta}")
                 except Exception as e:
                     print(f"Erro ao mover {nome_arquivo}: {e}")
             else:
-                arquivos_nao_encontrados.append(nome_arquivo)
+                faltantes_neste_processo.append(f"Processo {n_processo}: {nome_arquivo}")
+
+        # Heurística para não checar na pasta de destino (pois fica lento):
+        # Consideramos que o processo "do momento" é aquele em que estamos movendo arquivos agora.
+        # Se movemos pelo menos 1 arquivo desse processo, mas faltaram outros, nós avisamos.
+        # Se nenhum arquivo foi movido (0), assumimos que é um processo antigo que já foi 
+        # todo organizado no passado, então ignoramos e não poluímos a tela.
+        if movidos_neste_processo > 0 and len(faltantes_neste_processo) > 0:
+            arquivos_nao_encontrados.extend(faltantes_neste_processo)
                 
     print(f"\nResumo:")
     print(f"Arquivos movidos com sucesso: {arquivos_movidos}")
@@ -56,7 +68,7 @@ def organizar_arquivos(json_path, pasta_base_bruta, pasta_destino_base):
         print("Alguns arquivos não encontrados:", arquivos_nao_encontrados[:10])
 
 if __name__ == "__main__":
-    pasta_projeto = r"c:\Users\Ed\Documents\1-Documentos\1-EDIVALDO\2-Meus_Projetos\Organizador_Pastas"
+    pasta_projeto = os.path.dirname(os.path.abspath(__file__))
     
     json_path = os.path.join(pasta_projeto, "2-BASE_PRE_PROCESSADA_IMAGENS", "estrutura_final.json")
     pasta_base_bruta = os.path.join(pasta_projeto, "1-BASE_BRUTA_TOTAL")

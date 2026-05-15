@@ -65,5 +65,5 @@ def categorizar_arquivos(base_dir):
     print(f"Estrutura final salva em: {output_path}")
 
 if __name__ == "__main__":
-    base_dir = r"c:\Users\Ed\Documents\1-Documentos\1-EDIVALDO\2-Meus_Projetos\Organizador_Pastas\2-BASE_PRE_PROCESSADA_IMAGENS"
+    base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "2-BASE_PRE_PROCESSADA_IMAGENS")
     categorizar_arquivos(base_dir)

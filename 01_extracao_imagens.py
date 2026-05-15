@@ -47,24 +47,33 @@ def processar_pasta_imagens(base_dir):
     search_pattern_jpg = os.path.join(base_dir, "**", "*.jpg")
     imagens.extend(glob.glob(search_pattern_jpg, recursive=True))
     
+    # Dicionário para agrupar os dados extraídos por pasta
+    dados_agrupados = {}
+
     for img_path in imagens:
         pasta_destino = os.path.dirname(img_path)
         
         dados = extrair_dados_imagem(img_path, reader)
         
         if dados:
-            # 1. Salvar JSON
-            json_path = os.path.join(pasta_destino, "documentos.json")
-            with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(dados, f, ensure_ascii=False, indent=4)
-            print(f"Salvo: {json_path}")
+            if pasta_destino not in dados_agrupados:
+                dados_agrupados[pasta_destino] = []
+            dados_agrupados[pasta_destino].extend(dados)
             
-            # 2. Salvar Excel
-            df = pd.DataFrame(dados)
-            excel_path = os.path.join(pasta_destino, "tabela_documentos.xlsx")
-            df.to_excel(excel_path, index=False)
-            print(f"Salvo: {excel_path}")
+    # Salvar os resultados agrupados
+    for pasta_destino, dados_completos in dados_agrupados.items():
+        # 1. Salvar JSON
+        json_path = os.path.join(pasta_destino, "documentos.json")
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(dados_completos, f, ensure_ascii=False, indent=4)
+        print(f"Salvo: {json_path}")
+        
+        # 2. Salvar Excel
+        df = pd.DataFrame(dados_completos)
+        excel_path = os.path.join(pasta_destino, "tabela_documentos.xlsx")
+        df.to_excel(excel_path, index=False)
+        print(f"Salvo: {excel_path}")
 
 if __name__ == "__main__":
-    base_dir = r"c:\Users\Ed\Documents\1-Documentos\1-EDIVALDO\2-Meus_Projetos\Organizador_Pastas\2-BASE_PRE_PROCESSADA_IMAGENS"
+    base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "2-BASE_PRE_PROCESSADA_IMAGENS")
     processar_pasta_imagens(base_dir)

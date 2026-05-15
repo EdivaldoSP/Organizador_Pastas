@@ -3,8 +3,8 @@ import sys
 import os
 
 def main():
-    # Caminho do executável Python onde o easyocr foi instalado
-    python_exe = r"C:\Users\Ed\AppData\Local\Programs\Python\Python313\python.exe"
+    # Caminho do executável Python atual
+    python_exe = sys.executable
     
     # Configurar o encoding para não dar erro no print do EasyOCR no Windows
     env = os.environ.copy()
