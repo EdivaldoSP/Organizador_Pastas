@@ -1,83 +1,103 @@
 [
     {
-        "processo": "1-08461499720188140301",
+        "processo": "10-08072304820198140028",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
-                "codigo": "105013043",
+                "codigo": "173675815",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "173675814",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "173675811",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "145279042",
                 "categoria": "Decisão",
                 "classificacao_original": "Decisão"
             },
             {
-                "codigo": "94164415",
+                "codigo": "128447566",
                 "categoria": "Sentença",
                 "classificacao_original": "Sentença"
             },
             {
-                "codigo": "79744748",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
+                "codigo": "127102224",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "99803131",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "23683075",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
             }
         ]
     },
     {
-        "processo": "1-08461499720188140301",
+        "processo": "10-08072304820198140028",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
-                "codigo": "33726713",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
+                "codigo": "33652962",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
             },
             {
-                "codigo": "23740882",
+                "codigo": "34699839",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "27253228",
                 "categoria": "Decisão",
                 "classificacao_original": "Decisão"
             },
             {
-                "codigo": "22499048",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "22471271",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "18210015",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "18210014",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "18210011",
+                "codigo": "27253221",
                 "categoria": "Sentença",
                 "classificacao_original": "Sentença"
             },
             {
-                "codigo": "18210010",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
+                "codigo": "27253218",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
             },
             {
-                "codigo": "18210007",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
+                "codigo": "27253216",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
             },
             {
-                "codigo": "18210006",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
+                "codigo": "27253215",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "27253180",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "27253179",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
             }
         ]
     },
     {
-        "processo": "10-08009712820248140039",
+        "processo": "11-08009712820248140039",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -103,7 +123,7 @@
         ]
     },
     {
-        "processo": "10-08009712820248140039",
+        "processo": "11-08009712820248140039",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -139,7 +159,7 @@
         ]
     },
     {
-        "processo": "11-00157408920188140005",
+        "processo": "12-00157408920188140005",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -155,7 +175,7 @@
         ]
     },
     {
-        "processo": "11-00157408920188140005",
+        "processo": "12-00157408920188140005",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -191,7 +211,7 @@
         ]
     },
     {
-        "processo": "12-08054591220258140000",
+        "processo": "13-08054591220258140000",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -202,7 +222,7 @@
         ]
     },
     {
-        "processo": "13-08568375020208140301",
+        "processo": "14-08568375020208140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -248,7 +268,7 @@
         ]
     },
     {
-        "processo": "13-08568375020208140301",
+        "processo": "14-08568375020208140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -314,7 +334,7 @@
         ]
     },
     {
-        "processo": "14-09008688720228140301",
+        "processo": "15-09008688720228140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -330,7 +350,7 @@
         ]
     },
     {
-        "processo": "14-09008688720228140301",
+        "processo": "15-09008688720228140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -371,7 +391,7 @@
         ]
     },
     {
-        "processo": "15-00011816420188140026",
+        "processo": "16-00011816420188140026",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -407,7 +427,7 @@
         ]
     },
     {
-        "processo": "15-00011816420188140026",
+        "processo": "16-00011816420188140026",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -443,7 +463,7 @@
         ]
     },
     {
-        "processo": "16-08210597320258140000",
+        "processo": "17-08210597320258140000",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -454,7 +474,7 @@
         ]
     },
     {
-        "processo": "17-08735896820188140301",
+        "processo": "18-08735896820188140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -480,7 +500,7 @@
         ]
     },
     {
-        "processo": "17-08735896820188140301",
+        "processo": "18-08735896820188140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -531,7 +551,7 @@
         ]
     },
     {
-        "processo": "18-08153774020258140000",
+        "processo": "19-08153774020258140000",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -552,7 +572,84 @@
         ]
     },
     {
-        "processo": "19-08376936120188140301",
+        "processo": "2-08461499720188140301",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "105013043",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "94164415",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "79744748",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "2-08461499720188140301",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "33726713",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "23740882",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "22499048",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "22471271",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "18210015",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "18210014",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "18210011",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "18210010",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "18210007",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "18210006",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "20-08376936120188140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -588,7 +685,7 @@
         ]
     },
     {
-        "processo": "19-08376936120188140301",
+        "processo": "20-08376936120188140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -644,44 +741,7 @@
         ]
     },
     {
-        "processo": "2-00103896920198140048",
-        "instancia": "ESTANCIA - Primeiro Grau",
-        "documentos": [
-            {
-                "codigo": "120214486",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
-            }
-        ]
-    },
-    {
-        "processo": "2-00103896920198140048",
-        "instancia": "ESTANCIA - Segundo Grau",
-        "documentos": [
-            {
-                "codigo": "33658029",
-                "categoria": "Voto",
-                "classificacao_original": "Voto"
-            },
-            {
-                "codigo": "34716354",
-                "categoria": "Acórdão",
-                "classificacao_original": "Acórdão"
-            },
-            {
-                "codigo": "30003752",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "23193669",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
-            }
-        ]
-    },
-    {
-        "processo": "20-00127842720148140301",
+        "processo": "21-00127842720148140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -737,7 +797,7 @@
         ]
     },
     {
-        "processo": "20-00127842720148140301",
+        "processo": "21-00127842720148140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -778,7 +838,7 @@
         ]
     },
     {
-        "processo": "21-08146638020258140000",
+        "processo": "22-08146638020258140000",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -799,7 +859,7 @@
         ]
     },
     {
-        "processo": "22-00057723420168140028",
+        "processo": "23-00057723420168140028",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -815,7 +875,7 @@
         ]
     },
     {
-        "processo": "22-00057723420168140028",
+        "processo": "23-00057723420168140028",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -841,7 +901,7 @@
         ]
     },
     {
-        "processo": "23-08090378020258140000",
+        "processo": "24-08090378020258140000",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -872,7 +932,642 @@
         ]
     },
     {
-        "processo": "3-08712173920248140301",
+        "processo": "25-00010536819998140201",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "142280991",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "140182545",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "138481706",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "137678522",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "128247497",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "120468179",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "93494420",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "89705832",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "25-00010536819998140201",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "26664404",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664399",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664396",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664395",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664392",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664391",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664385",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "26664384",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "26664368",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26664366",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "26-08139726620258140000",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "33569916",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "34505663",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "28876958",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "28243127",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "27-08160239520238140040",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "173685964",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "173685962",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "173685958",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "173685940",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "173685935",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "173685933",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "120288722",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "116083902",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "102614557",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "27-08160239520238140040",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "33757074",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "34785030",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "28087980",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "29830976",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "23130047",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "23130044",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "23130042",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "28-09104152020238140301",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "172326867",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "172326865",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "172326863",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "155622752",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "114063554",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "28-09104152020238140301",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "33729232",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "34781247",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "30874432",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "30874364",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "30874363",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "29-01511974920168140301",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "154193093",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "29-01511974920168140301",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "30923386",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "3-00103896920198140048",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "120214486",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "3-00103896920198140048",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "33658029",
+                "categoria": "Voto",
+                "classificacao_original": "Voto"
+            },
+            {
+                "codigo": "34716354",
+                "categoria": "Acórdão",
+                "classificacao_original": "Acórdão"
+            },
+            {
+                "codigo": "30003752",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "23193669",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "30-03192863520168140301",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "136433788",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "30-03192863520168140301",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "26569801",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "26522382",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            }
+        ]
+    },
+    {
+        "processo": "31-08047616320188140028",
+        "instancia": "ESTANCIA - Primeiro Grau",
+        "documentos": [
+            {
+                "codigo": "129970686",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "119126280",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "100671547",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "89536200",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "79955837",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "76322543",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "63061184",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "50012600",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28038885",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "18444468",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "16451432",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "12212325",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "6739885",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "31-08047616320188140028",
+        "instancia": "ESTANCIA - Segundo Grau",
+        "documentos": [
+            {
+                "codigo": "34304917",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "34206817",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "30733090",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28736417",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636769",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "28636763",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "28636762",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "28636761",
+                "categoria": "Sentença",
+                "classificacao_original": "Sentença"
+            },
+            {
+                "codigo": "28636750",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636725",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636721",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636720",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636706",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636705",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636659",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636653",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636652",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636648",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636645",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636622",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636620",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636617",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636615",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636606",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636604",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636603",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636597",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636595",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636569",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636568",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636567",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636566",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636564",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636560",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636554",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636543",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636455",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            },
+            {
+                "codigo": "28636332",
+                "categoria": "Decisão",
+                "classificacao_original": "Decisão"
+            }
+        ]
+    },
+    {
+        "processo": "4-08712173920248140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -903,7 +1598,7 @@
         ]
     },
     {
-        "processo": "3-08712173920248140301",
+        "processo": "4-08712173920248140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -934,7 +1629,7 @@
         ]
     },
     {
-        "processo": "4-08003715620258149000",
+        "processo": "5-08003715620258149000",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -965,7 +1660,7 @@
         ]
     },
     {
-        "processo": "5-08006221520248140107",
+        "processo": "6-08006221520248140107",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -1006,7 +1701,7 @@
         ]
     },
     {
-        "processo": "5-08006221520248140107",
+        "processo": "6-08006221520248140107",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -1042,7 +1737,7 @@
         ]
     },
     {
-        "processo": "6-08090307020228140040",
+        "processo": "7-08090307020228140040",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -1058,7 +1753,7 @@
         ]
     },
     {
-        "processo": "6-08090307020228140040",
+        "processo": "7-08090307020228140040",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -1094,7 +1789,7 @@
         ]
     },
     {
-        "processo": "7-08095269720198140301",
+        "processo": "8-08095269720198140301",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -1125,7 +1820,7 @@
         ]
     },
     {
-        "processo": "7-08095269720198140301",
+        "processo": "8-08095269720198140301",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -1186,7 +1881,7 @@
         ]
     },
     {
-        "processo": "8-08031130920218140201",
+        "processo": "9-08031130920218140201",
         "instancia": "ESTANCIA - Primeiro Grau",
         "documentos": [
             {
@@ -1217,7 +1912,7 @@
         ]
     },
     {
-        "processo": "8-08031130920218140201",
+        "processo": "9-08031130920218140201",
         "instancia": "ESTANCIA - Segundo Grau",
         "documentos": [
             {
@@ -1282,103 +1977,6 @@
             },
             {
                 "codigo": "23758382",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            }
-        ]
-    },
-    {
-        "processo": "9-08072304820198140028",
-        "instancia": "ESTANCIA - Primeiro Grau",
-        "documentos": [
-            {
-                "codigo": "173675815",
-                "categoria": "Acórdão",
-                "classificacao_original": "Acórdão"
-            },
-            {
-                "codigo": "173675814",
-                "categoria": "Voto",
-                "classificacao_original": "Voto"
-            },
-            {
-                "codigo": "173675811",
-                "categoria": "Acórdão",
-                "classificacao_original": "Acórdão"
-            },
-            {
-                "codigo": "145279042",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "128447566",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
-            },
-            {
-                "codigo": "127102224",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "99803131",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "23683075",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            }
-        ]
-    },
-    {
-        "processo": "9-08072304820198140028",
-        "instancia": "ESTANCIA - Segundo Grau",
-        "documentos": [
-            {
-                "codigo": "33652962",
-                "categoria": "Voto",
-                "classificacao_original": "Voto"
-            },
-            {
-                "codigo": "34699839",
-                "categoria": "Acórdão",
-                "classificacao_original": "Acórdão"
-            },
-            {
-                "codigo": "27253228",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "27253221",
-                "categoria": "Sentença",
-                "classificacao_original": "Sentença"
-            },
-            {
-                "codigo": "27253218",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "27253216",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "27253215",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "27253180",
-                "categoria": "Decisão",
-                "classificacao_original": "Decisão"
-            },
-            {
-                "codigo": "27253179",
                 "categoria": "Decisão",
                 "classificacao_original": "Decisão"
             }
